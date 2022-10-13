@@ -1,0 +1,13 @@
+{
+  "name": "Dreamlab.Solutions",
+  "version": "1.0.0",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "cwd": "^0.10.0",
+    "yarn-run-all": "^3.1.1"
+  },
+  "scripts": {
+    "strapi:develop": "yarn --cwd ./dreamlab-ci-strapi run develop"
+  },
+  "license": "MIT"
+}
